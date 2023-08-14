@@ -9,8 +9,9 @@ function decimalToBinary(num) {
 	for(let i=ans.length-1;i>=0;i--){
 		fans+=ans[i];
 	}
-	console.log(fans);
+	// console.log(fans);
+	return fans;
 }
 
-decimalToBinary(8);
+// decimalToBinary(8);
 window.decimalToBinary = decimalToBinary;
