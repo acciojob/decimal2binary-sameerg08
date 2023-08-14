@@ -12,5 +12,5 @@ function decimalToBinary(num) {
 	console.log(fans);
 }
 
-
+decimalToBinary(8);
 window.decimalToBinary = decimalToBinary;
